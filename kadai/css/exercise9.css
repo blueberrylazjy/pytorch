@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+.heading {
+    background-color: #ff9a4b;
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.main-section{
+    width:100%;
+    padding-top:50px;
+    padding-bottom:50px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;   
+}
+
+
+.steps1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ff9a4b;
+    color: #fff;
+}
+.sections{
+    display:inline-block;
+    width:300px;
+    margin-left:30px;
+    padding:10px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+.images{
+    margin-bottom:15px;
+    width:280px;
+}
+h3{
+    margin-bottom:5px;
+}
+.footer1{
+    background-color: #AAAAAA;
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    main{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+    
+    }
+
+
+    .main-section{
+        display:block;
+        padding-top:50px;
+        padding-bottom:50px;
+        margin:0 auto;
+
+    }
+    
+    .sections{
+        display:block;
+        width:90%;
+        margin-left:30px;
+        padding:10px;
+        background-color: #EEEEEE;
+        position: relative;
+    }
+
+    .sections:nth-child(2){
+        margin-top:20px;
+    }
+    .sections:nth-child(3){
+        margin-top:20px;
+    }
+    .images{
+        width: 100%;
+        height: 100%;  /* 自分が書いたexercise9のimage部分ではbackgroun-imageではなくhtmlで
+                       image...>方式を使いましたので　同じ効果を得るためにこのコードを使いました
+        　　　　　　　　　少々問題になるのがwidthがピッタリ150pxにならないところですが、SAMPLE画像と同じ設定
+        　　　　　　　　を使うとimageの一部が消失している問題点がありますので、こちらの方が適切ではないか
+        　　　　　　　　とかんがえています。exercise９の解答(exercise9.anwer)をそのまま使ってもう一回課題
+        　　　　　　　　をやりましたのでそちらのほうも見て頂ければと思います。*/
+   
+    }
+
+  }
